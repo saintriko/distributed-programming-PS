@@ -1,0 +1,78 @@
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.exe
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.deps.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.dev.json
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.pdb
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csprojAssemblyReference.cache
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.Manifest.cache
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.xml
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfoInputs.cache
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfo.cs
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.RazorTargetAssemblyInfo.cache
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csproj.CopyComplete
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\ds-1-master\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.pdb
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.exe
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.deps.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.dev.json
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.pdb
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csprojAssemblyReference.cache
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.Manifest.cache
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.xml
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfoInputs.cache
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfo.cs
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.RazorTargetAssemblyInfo.cache
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csproj.CopyComplete
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\ds-1-master — копия\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.pdb
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.exe
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.deps.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.runtimeconfig.dev.json
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\BackendApi.pdb
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csprojAssemblyReference.cache
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.Manifest.cache
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\staticwebassets\BackendApi.StaticWebAssets.xml
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfoInputs.cache
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.AssemblyInfo.cs
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.RazorTargetAssemblyInfo.cache
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.csproj.CopyComplete
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.dll
+C:\Users\makss\distributed programming\distributed-programming\1lw\src\BackendApi\obj\Debug\netcoreapp3.1\BackendApi.pdb
