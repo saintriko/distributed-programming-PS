@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\makss\distributed programming\distributed-programming\1lw\src\FrontendTask\Views\_ViewImports.cshtml"
-using FrontendClient;
+using FrontendTask;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\makss\distributed programming\distributed-programming\1lw\src\FrontendTask\Views\_ViewImports.cshtml"
-using FrontendClient.Models;
+using FrontendTask.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47ecb406808eb44af8ad93643940062acf15d142", @"/Views/Home/Task.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9aa112a8ca1514062277b75d31e4abf96a6243b6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6ed72e249799ce0859e4f2d7cc1b528af432f7ee", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Task : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TaskViewModel>
     {
         #pragma warning disable 1998

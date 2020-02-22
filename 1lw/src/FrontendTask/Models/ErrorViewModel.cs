@@ -1,6 +1,6 @@
 using System;
 
-namespace FrontendClient.Models
+namespace FrontendTask.Models
 {
     public class ErrorViewModel
     {

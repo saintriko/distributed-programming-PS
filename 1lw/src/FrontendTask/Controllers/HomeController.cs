@@ -3,11 +3,11 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using FrontendClient.Models;
+using FrontendTask.Models;
 using Grpc.Net.Client;
 using BackendApi;
 
-namespace FrontendClient.Controllers
+namespace FrontendTask.Controllers
 {
     public class HomeController : Controller
     {
