@@ -1,7 +1,7 @@
 
 1lw/src/FrontendTask/bin/
-1lw/src/FrontendTask/obj/Debug/
-1lw/src/BackendClient/obj/Debug/
+1lw/src/FrontendTask/obj/
+1lw/src/BackendClient/obj/
 1lw/src/BackendClient/bin/
 1lw/src/BackendApi/bin/
-1lw/src/BackendApi/obj/Debug/
+1lw/src/BackendApi/obj/
