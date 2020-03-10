@@ -30,7 +30,7 @@ namespace FrontendTask.Controllers
                 return View("Error", new ErrorViewModel {RequestId = "Description can't be empty"});
             }
             try {
-            using var channel = GrpcChannel.ForAddress("http://localhost:5000");
+            using var channel = GrpcChannel.ForAddress("http://" + Environment.GetEnvironmentVariable("BACKEND_API_HOST") + ":5000");
             var client = new Job.JobClient(channel);
             var reply = await client.RegisterAsync(new RegisterRequest { Description = description });
             return View("Task", new TaskViewModel { Id = reply.Id });
