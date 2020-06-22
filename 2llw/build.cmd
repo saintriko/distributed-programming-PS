@@ -1,13 +1,14 @@
 @echo off
 if "%~1" == "" (
-    echo Incorrect number of arguments.
+    echo Wrong arguments number
+	echo Try build.cmd "version"
     exit /b -1
 )
 
 set DIR_NAME=build-v%~1
 
 if exist "%DIR_NAME%" (
-	echo This version already exists
+	echo This build already exists
 	exit /b -1
 )
 
