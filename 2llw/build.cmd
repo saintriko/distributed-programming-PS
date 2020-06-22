@@ -41,5 +41,3 @@ xcopy stop.cmd "%DIR_NAME%"
 
 echo BUILD SUCCESS
 echo GO TO %DIR_NAME% AND RUN "start.cmd"
-
-Pause
