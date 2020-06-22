@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1/Job.cs \
+obj\Release\netcoreapp3.1/JobGrpc.cs: ../Protos/job.proto
