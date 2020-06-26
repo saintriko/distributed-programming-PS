@@ -27,7 +27,7 @@ namespace BackendApi
                 {
                     var config = new ConfigurationBuilder()  
                         .SetBasePath(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.FullName + "/config")  
-                        .AddJsonFile("config.json", optional: false)  
+                        .AddJsonFile("Config.json", optional: false)  
                         .Build(); 
                     webBuilder.ConfigureKestrel(options =>
                     {

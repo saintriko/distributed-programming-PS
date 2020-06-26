@@ -19,7 +19,7 @@ namespace Subscriber
         {
             var config = new ConfigurationBuilder()  
                         .SetBasePath(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.FullName + "/config")  
-                        .AddJsonFile("config.json", optional: false)  
+                        .AddJsonFile("Config.json", optional: false)  
                         .Build(); 
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect($"localhost:{config.GetValue<int>("RedisPort")}");
             IDatabase db = redis.GetDatabase();
