@@ -1,3 +1,3 @@
 # distributed-programming
 
-run build.cmd <version>
+run build.cmd <"version">
