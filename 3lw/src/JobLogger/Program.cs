@@ -13,6 +13,7 @@ namespace JobLogger
 
             using(IConnection connection = new ConnectionFactory().CreateConnection(ConnectionFactory.GetDefaultOptions())){
                 loggerservice.Run(connection);
+                Console.WriteLine("JobLogger online");
                 Console.ReadKey();
             }
         }
