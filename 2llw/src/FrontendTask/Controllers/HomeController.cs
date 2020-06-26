@@ -20,7 +20,7 @@ namespace FrontendTask.Controllers
         {
             _logger = logger;
             _configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory() + "/config")
+                .SetBasePath(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.FullName + "/config") 
                 .AddJsonFile("frontConfig.json", optional: true, reloadOnChange: true)
                 .Build();
                 
