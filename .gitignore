@@ -10,3 +10,13 @@
 2llw/src/BackendClient/bin/
 2llw/src/BackendApi/bin/
 2llw/build*/
+2llw/src/BackendApi/obj/
+3lw/src/BackendApi/bin/
+3lw/src/BackendApi/obj/
+3lw/src/FrontendTask/bin/
+3lw/src/FrontendTask/obj/
+3lw/src/FrontendTask/published/
+3lw/src/JobLogger/bin/
+3lw/src/JobLogger/obj/
+2llw/src/BackendApi/obj
+2llw/src/BackendApi/obj/
