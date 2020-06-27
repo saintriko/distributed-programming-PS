@@ -15,7 +15,7 @@ namespace Subscriber
         
         private IConfigurationRoot config;
 
-        public string getRedisValue(string id)
+        public string getDescriptionInDB(string id)
         {
             var config = new ConfigurationBuilder()  
                         .SetBasePath(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.FullName + "/config")  
@@ -26,9 +26,9 @@ namespace Subscriber
             return db.StringGet(id);
         }
 
-        public void WriteLog(string id)
+        public void logToConsole(string id)
         {
-            string redisValue = getRedisValue(id);
+            string redisValue = getDescriptionInDB(id);
             Console.WriteLine(id + " : " + redisValue);
         }
 
@@ -37,7 +37,7 @@ namespace Subscriber
             var greetings = connection.Observe("events")
                     .Select(m => Encoding.Default.GetString(m.Data));
 
-            greetings.Subscribe(msg => WriteLog(msg));
+            greetings.Subscribe(msg => logToConsole(msg));
         }    
     }
 }
