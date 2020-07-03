@@ -23,3 +23,14 @@
 2llw/src/FrontendTask/obj/
 2llw/src/BackendApi/obj/
 3lw/build*/
+4lw/build*/
+4lw/src/BackendApi/bin
+4lw/src/JobLogger/bin/
+4lw/src/FrontendTask/bin/
+4lw/src/BackendApi/obj
+4lw/src/BackendApi/obj/
+4lw/src/FrontendTask/obj/
+4lw/src/BackendApi/obj/
+4lw/src/BackendApi/published/
+4lw/src/FrontendTask/published/
+4lw/src/JobLogger/obj/
