@@ -11,11 +11,18 @@ namespace JobLogger
            var subscriberService = new SubscriberService();
 
 
+            try {
             using(IConnection connection = new ConnectionFactory().CreateConnection(ConnectionFactory.GetDefaultOptions())){
                 subscriberService.Run(connection);
-                Console.WriteLine("Events listening started. Press any key to exit");
+                Console.WriteLine("TextRankCalc online");
+                Console.ReadKey();
+            }
+            } catch(NATS.Client.NATSNoServersException ex) {
+                Console.WriteLine("No connection to NATS");
+                Console.WriteLine(ex.Message);
                 Console.ReadKey();
             }
         }
+        
     }
 }

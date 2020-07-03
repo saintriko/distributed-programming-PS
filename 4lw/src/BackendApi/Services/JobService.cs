@@ -17,7 +17,7 @@ namespace BackendApi.Services
         private readonly static Dictionary<string, string> _jobs = new Dictionary<string, string>();
         private readonly ILogger<JobService> _logger;
         private const int DELAY = 500;
-        private const int REQUEST_RETRY = 5;
+        private const int REQUEST_REPEATS = 5;
 
         public JobService(ILogger<JobService> logger)
         {
@@ -57,7 +57,7 @@ namespace BackendApi.Services
             db.StringSet(id, value);
         }
 
-        private string getFromRedis(string id)
+        private string getFromDB(string id)
         {
             var config = new ConfigurationBuilder()  
                 .SetBasePath(new DirectoryInfo(Directory.GetCurrentDirectory()).Parent.FullName + "/config")  
@@ -74,11 +74,11 @@ namespace BackendApi.Services
                 .AddJsonFile("config.json", optional: false)  
                 .Build();
             string idResult = registerResponse.Id + "_rating";
-            var result = new ProcessingResult {Status = "Processing", Response = "empty"}; //TODO replace Some Response with  ""
+            var result = new ProcessingResult {Status = "Processing", Response = "no response"};
             
-            for (int i = 0; i < REQUEST_RETRY; i++)
+            for (int i = 0; i < REQUEST_REPEATS; i++)
             {
-                string response = getFromRedis(idResult);
+                string response = getFromDB(idResult);
                 if (response != null) {
                     result.Status = "Completed";
                     result.Response = response;

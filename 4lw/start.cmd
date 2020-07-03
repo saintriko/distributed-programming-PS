@@ -12,3 +12,7 @@ cd JobLogger
 start dotnet JobLogger.dll
 
 cd ..
+cd TextRankCalc
+start dotnet TextRankCalc.dll
+
+cd ..

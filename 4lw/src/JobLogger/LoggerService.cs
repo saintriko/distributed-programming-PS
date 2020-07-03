@@ -28,7 +28,7 @@ namespace Subscriber
 
         public void logToConsole(string id)
         {
-            string redisValue = getDescriptionInDB(id);
+            string redisValue = getDescriptionInDB(id + "_description");
             Console.WriteLine(id + " : " + redisValue);
         }
 

@@ -31,8 +31,8 @@ namespace FrontendTask.Controllers
         {
             using var channel = GrpcChannel.ForAddress("http://localhost:" + _configuration["BackendApiPort"]);
             var client = new Job.JobClient(channel);
-            var reply = await client.GetProcessingResultAsync(new RegisterResponse { Id = JobId }); //
-            return View("Task", new TaskViewModel {Rank = reply.Response, Status = reply.Status}); //TO:DO какой имнно ответ rank или что-то что вернется
+            var reply = await client.GetProcessingResultAsync(new RegisterResponse { Id = JobId }); 
+            return View("Task", new TaskViewModel {Rank = reply.Response, Status = reply.Status, Id = JobId}); 
         }
     }
 }
