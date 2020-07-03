@@ -8,12 +8,12 @@ namespace JobLogger
     {
         static void Main(string[] args)
         {
-           var subscriberService = new SubscriberService();
+           var RankService = new RankService();
 
 
             try {
             using(IConnection connection = new ConnectionFactory().CreateConnection(ConnectionFactory.GetDefaultOptions())){
-                subscriberService.Run(connection);
+                RankService.Run(connection);
                 Console.WriteLine("TextRankCalc online");
                 Console.ReadKey();
             }

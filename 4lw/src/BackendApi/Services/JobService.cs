@@ -27,7 +27,6 @@ namespace BackendApi.Services
         public override Task<RegisterResponse> Register(RegisterRequest request, ServerCallContext context)
         {
             string id = Guid.NewGuid().ToString();
-            Console.Write(request.Data);
             saveToDB(id + "_description", request.Description);
             saveToDB(id + "_data", request.Data);
             publish(id);

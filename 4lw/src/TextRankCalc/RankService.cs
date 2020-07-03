@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace Subscriber
 {
-    public class SubscriberService
+    public class RankService
     {
         
         private IConfigurationRoot config;
