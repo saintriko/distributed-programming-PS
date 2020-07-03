@@ -16,14 +16,14 @@ namespace Subscriber
         
         private IConfigurationRoot config;
 
-        public string getRedisValue(string id)
+        public string getValueFromDB(string id)
         {
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect($"localhost:{config.GetValue<int>("RedisPort")}");
             IDatabase db = redis.GetDatabase();
             return db.StringGet(id);
         }
 
-        public void setRedisValue(string id, string value)
+        public void setValueToDB(string id, string value)
         {
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect($"localhost:{config.GetValue<int>("RedisPort")}");
             IDatabase db = redis.GetDatabase();
@@ -37,12 +37,12 @@ namespace Subscriber
             return countConsonants > 0 ? countVowels / countConsonants : 0;
         }
 
-        public void ProcessingTask(string id)
+        public void RankTask(string id)
         {
-            string redisValue = getRedisValue(id + "_data");
+            string redisValue = getValueFromDB(id + "_data");
             float rating = calcMessageRating(redisValue);
             id += "_rating";
-            setRedisValue(id, rating.ToString());
+            setValueToDB(id, rating.ToString());
         }
 
         public void Run(IConnection connection)
@@ -54,7 +54,7 @@ namespace Subscriber
             var greetings = connection.Observe("events")
                     .Select(m => Encoding.Default.GetString(m.Data));
 
-            greetings.Subscribe(msg => ProcessingTask(msg));
+            greetings.Subscribe(msg => RankTask(msg));
         }    
     }
 }
