@@ -42,7 +42,7 @@ namespace FrontendTask.Controllers
             using var channel = GrpcChannel.ForAddress("http://localhost:" + _configuration["BackendApiPort"]);
             var client = new Job.JobClient(channel);
             var reply = await client.RegisterAsync(new RegisterRequest { Description = description, Data = data });
-            return View("Task", new TaskViewModel { Id = reply.Id });
+            return RedirectToAction("Index", "TaskDetails", new { JobId = reply.Id });
             } catch(Grpc.Core.RpcException ex) {
                 return View("Error", new ErrorViewModel {RequestId = ex.Message});
             }
