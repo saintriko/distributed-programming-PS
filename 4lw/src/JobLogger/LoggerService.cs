@@ -12,9 +12,6 @@ namespace Subscriber
 {
     public class LoggerService
     {
-        
-        private IConfigurationRoot config;
-
         public string getDescriptionInDB(string id)
         {
             var config = new ConfigurationBuilder()  
