@@ -25,6 +25,7 @@ namespace BackendApi.Services
         {
             
             string id = Guid.NewGuid().ToString();
+            Console.Write(request.Data)
             saveToDB(id, request.Description);
             publish(id);
             var resp = new RegisterResponse

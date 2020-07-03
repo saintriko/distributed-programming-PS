@@ -33,7 +33,7 @@ namespace FrontendTask.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> HandleFormSubmit(String description) {
+        public async Task<IActionResult> HandleFormSubmit(String description, String data) {
             
             if (description == null) {
                 return View("Error", new ErrorViewModel {RequestId = "Description can't be empty"});
