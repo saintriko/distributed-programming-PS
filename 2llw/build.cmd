@@ -15,7 +15,7 @@ if exist "%DIR_NAME%" (
 MD "%DIR_NAME%"
 
 cd src/BackendApi
-start /wait dotnet publish --configuration Release
+dotnet publish --configuration Release
 if %ERRORLEVEL% NEQ 0 (
 	echo "Build failed"
     exit /b -1
@@ -23,7 +23,7 @@ if %ERRORLEVEL% NEQ 0 (
 
 cd ..
 cd FrontendTask
-start /wait dotnet publish --configuration Release
+dotnet publish --configuration Release
 if %ERRORLEVEL% NEQ 0 (
 	echo "Build failed"
     exit /b -1
