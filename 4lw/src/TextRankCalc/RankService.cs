@@ -32,15 +32,16 @@ namespace Subscriber
 
         private float calcMessageRating(string message)
         {
-            int countVowels = Regex.Matches(message, @"[aeiouауоыиэяюёе]", RegexOptions.IgnoreCase).Count;
+            int countVowels = Regex.Matches(message, @"[aeiouаёеуоыиэюя]", RegexOptions.IgnoreCase).Count;
             int countConsonants = Regex.Matches(message, @"[bcdfghjklmnpqrstvwxyzбвгджзйклмнпрстфхцчшщ]", RegexOptions.IgnoreCase).Count;
-            return countConsonants > 0 ? countVowels / countConsonants : 0;
+            int result = countConsonants > 0 ? countVowels / countConsonants : 0;
+            return result;
         }
 
         public void RankTask(string id)
         {
-            string redisValue = getValueFromDB(id + "_data");
-            float rating = calcMessageRating(redisValue);
+            string dataFromDB = getValueFromDB(id + "_data");
+            float rating = calcMessageRating(dataFromDB);
             id += "_rating";
             setValueToDB(id, rating.ToString());
         }
